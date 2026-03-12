@@ -1,21 +1,25 @@
-# React + TypeScript + Vite + shadcn/ui
+# padhai-likhai / machine-coding
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+A personal playground for practising React machine coding problems from scratch — no libraries doing the heavy lifting, just raw React concepts.
 
-## Adding components
+Each problem lives in `src/containers/` and has:
+- The actual implementation
+- A `Concept.md` with theory explained in Hinglish
+- A bottom drawer (click the `📖` button) to read the theory or browse the source code in-app
 
-To add components to your app, run the following command:
+## Problems
 
-```bash
-npx shadcn@latest add button
-```
+| Problem | Concepts |
+|---|---|
+| OTP Input | `useRef` array, imperative focus, keyboard navigation |
+| Pointer Tracker | `useEffect` + browser events, `pointer-events-none`, fixed positioning |
+| Recursive Directory | Recursive React components, independent local state per node |
+| Virtual Scrolling | Spacer div, `translateY` offset, scroll-driven windowing |
+| Pagination | — |
+| Drag and Drop | — |
 
-This will place the ui components in the `src/components` directory.
+## Stack
 
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button"
-```
+- React + TypeScript + Vite
+- Tailwind CSS + shadcn/ui
+- TanStack Router (file-based routing)
